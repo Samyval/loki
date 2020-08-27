@@ -1,0 +1,67 @@
+body{
+	font-size: 16px;
+	color: white ;
+	background-color: #61122f;
+	font-family: 'Lora';
+}
+
+/*header*/
+#header-nav{
+	background-color: #C46599;
+	border-radius: 10px;
+	border: 0;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 20px;
+}
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+	
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+/*section*/
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+
+.row > div > article {
+	background-color: #9C9599;
+	text-align: justify;
+	color: white;
+	padding:12px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+@media (max-width: 767px)
+{
+	.navbar-default .navbar-collapse {
+    border: none;
+    background-color: #7D576C;
+	}
+	.row > div > article {
+		width: 90%;
+		margin: 20px auto 0;
+	}
+}
+
+
+
+
+
+
